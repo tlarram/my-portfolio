@@ -1,30 +1,18 @@
 import React from 'react'
 import {Container, Button, Nav,Navbar as NavbarBs} from "react-bootstrap"
-import { NavLink } from 'react-router-dom'
-import {useRef } from 'react'
-
+import logo from '../images/logo.png'
 const NavBar = () => {
-    const about = useRef(null);
-    const portfolio = useRef(null);
-    const contact = useRef(null);
-  
-    const scrollToSelection = (elementRef) => {
-      window.scrollTo({
-        top:elementRef.current.offsetTop,
-        behavior: 'smooth'
-      })
-  
-    }
   return (
-    <ul sticky="top" className="bg-black shadow-lg mb-3 text-white text-decoration-none">
-        <Container>
-                <li className=" text-white text-decoration-none "><a href="/">Home</a></li>
-                <li className=" text-white text-decoration-none "><a href="#about">About</a></li> 
-                <li className=" text-white text-decoration-none "><a href="#portfolio">Portfolio</a></li>
-                <li className=" text-white text-decoration-none "><a href="#contact">Contact</a></li> 
-                <li className=" text-white text-decoration-none "><a href="/resume">Resume</a></li> 
-        </Container>
+    <div>
+    <img src={logo} alt="Logo" height="200"/>
+    <ul className="nav">
+                <li><a className="no" href="/"><button className="btn">Home</button></a></li>
+                <li><a className="no"href="#about"><button className="btn">About</button></a></li> 
+                <li><a className="no"href="#portfolio"><button className="btn">Portfolio</button></a></li>
+                <li><a className="no"href="#contact"><button className="btn">Contact Me</button></a></li> 
+                <li><a className="no"href="/resume"><button className="btn">Resume</button></a></li> 
     </ul>
+    </div>
   )
 }
 

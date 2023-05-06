@@ -3,9 +3,13 @@ import React from 'react'
 export const Home = () => {
   return (
     <>
-    <h1 className="home">Hello there! I am Timothy Larramore!</h1>
+    <div className="background home homeText">
+    <h1 className="homeText">Hello there!</h1>
+    <p>My name is Timothy Larramore</p>
+    <p className="homeText">Full Stack Web Developer</p>
+    </div>
     </>
   )
-}
+  }
 
 export default Home
