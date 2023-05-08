@@ -1,14 +1,17 @@
 import React from 'react'
-
+import styles from './Home.module.css'
+import Profilepic from '../images/profilepic.png'
 export const Home = () => {
   return (
-    <>
-    <div className="background home homeText">
-    <h1 className="homeText">Hello there!</h1>
-    <p>My name is Timothy Larramore</p>
-    <p className="homeText">Full Stack Web Developer</p>
+    <div className={styles.background}>
+      <div className={styles.homeText}>
+        <h1>Hello there!</h1>
+        <p>My name is Timothy Larramore</p>
+        <p>Full Stack Web Developer</p>
+        <img className ={styles.img} src={Profilepic} alt="self portrait" height="250"/>
+        <p className={styles.noMargin}>Thanks for taking the time to learn more about me!</p>
+      </div>
     </div>
-    </>
   )
   }
 

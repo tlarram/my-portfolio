@@ -1,0 +1,45 @@
+.head { text-align: center;
+   
+}
+
+.dflex {
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+.background {
+    background-color: rgb(82,45,128);
+    background-image: url(/src/images/orange.png);
+    background-attachment: fixed;
+    background-position: 1% 25%;
+    background-size: auto;
+    background-repeat:no-repeat; 
+    min-height: 50vh;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 50px;
+
+  
+}
+
+.no {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.homeText{
+    text-align: center;
+    margin: 0px;
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+.noMargin {
+    margin-bottom: 0%;
+}

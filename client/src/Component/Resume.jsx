@@ -1,8 +1,9 @@
 import React from 'react'
-
-const Resume = () => {
+import styles from './Resume.module.css'
+const Resume = (props) => {
   return (
-    <div>Resume</div>
+    <div className={styles.background} id="resume" ref={props.resume}>Resume
+    </div>
   )
 }
 

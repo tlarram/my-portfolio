@@ -1,0 +1,22 @@
+.head { text-align: center;
+
+}
+
+.dflex {
+    display: flex;
+    justify-content:space-between;
+}
+
+#resume {
+    min-height: 100vh;
+    width: 100%
+  
+  }
+
+  .background {
+    background-color: rgb(82,45,128);
+    min-height: 100vh;
+    width: 100%;
+    color: aliceblue;
+  
+  }

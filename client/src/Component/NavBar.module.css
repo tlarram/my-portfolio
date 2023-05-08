@@ -1,0 +1,42 @@
+.active {
+    color: orange;
+}
+
+.dflex {
+    display: flex;
+    justify-content:space-between;
+    position: sticky; 
+    background-color: rgb(245,102,0);
+    top: 0px;
+    width: 100%;
+    
+}
+
+li {
+    list-style: none;
+    margin-right: 50px;
+  
+  }
+
+.nav {
+    display: flex;
+    
+    
+    }
+
+.logo { 
+
+}
+
+.btn {
+    background-color: rgb(82,45,128);
+    color: rgb(245,102,0);
+    height: 20px;
+    width: auto;
+    padding: 0 15px;
+    font-size: 1.2em;
+    font-weight:600;
+    border: none;
+    border-radius: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
